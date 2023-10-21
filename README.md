@@ -35,3 +35,21 @@ Code for paper, '**Salient Object Detection in RGB-D Videos**'
 
 
 ## Usage
+1. Requirements
+   - Python
+   - PyTorch
+   - Torchvision
+   - Cuda
+
+2. Training
+   - Download the pre_trained ResNet34 backbone: [Baidu Pan]()(fetch code: ) | [Google Drive]() to './model/resnet/pre_train/'.
+   - Download the train dataset (containing DAVIS16, DAVSOD, FBMS and DUTS-TR) from [Baidu Pan]()(fetch code: ) | [Google Drive]() and save it at './dataset/train/*'.
+   - Download the pre_trained RGB, depth and flow stream models from [Baidu Pan]()(fetch code: ) | [Google Drive]() to './checkpoints/'
+     - Noting: the pre_trained RGB should be saved at './checkpoints/spatial', pre_trained depth shoule be saved at './checkpoints/depth' and flow is same. 
+   - The training of entire DCTNet is implemented on one NVIDIA RTX 3090 GPU.
+     - run  `python train.py` in terminal
+3. Testing
+   - Download the test data (containing DAVIS16, DAVSOD, FBMS, SegTrack-V2, VOS) from  [Baidu Pan]()(fetch code: ) | [Google Drive]() and save it at './dataset/test/*'
+   - Download the trained model from [Downloads](#downloads)(original model ckpt) and modify the  `model_path` to its saving path in the `test.py`.
+   - Run `python test.py` in the terminal.
+
