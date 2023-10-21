@@ -24,13 +24,14 @@ Code for paper, '**Salient Object Detection in RGB-D Videos**'
 
 2. **DCTNet+ model.**
    - original model ckpt: [Baidu Pan](https://pan.baidu.com/s/1T_f_IPM9cJt4pzWbFTSgQQ?pwd=wm08)(fetch code: wm08) | [Google Drive]()
-   - finetune on the test set of RDVS with **realistic depth**: [Baidu Pan]()(fetch code: ) | [Google Drive]()
-   - finetune on the test set of RDVS with **synthetic depth**: [Baidu Pan]()(fetch code: ) | [Google Drive]()
+   - finetune on the test set of RDVS with **realistic depth**: [Baidu Pan](https://pan.baidu.com/s/1zSD_0ZyeSCedcyJcLX0G-w?pwd=wm08)(fetch code: wm08) | [Google Drive]()
+   - finetune on the test set of RDVS with **synthetic depth**: [Baidu Pan](https://pan.baidu.com/s/1TpKoZULR-yuAeCvrNVoalg?pwd=wm08)(fetch code: wm08) | [Google Drive]()
 
 
 3. **our training set and test set**
    - training set: [Baidu Pan]()(fetch code: ) | [Google Drive]()
    - test set: [Baidu Pan]()(fetch code: ) | [Google Drive]()
+
 
 
 ## Usage
