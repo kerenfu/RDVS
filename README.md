@@ -1,4 +1,4 @@
-# DCTNet_plus:Salient Object Detection in RGB-D Videos
+# DCTNet+:Salient Object Detection in RGB-D Videos
 
 Code for paper, '**Salient Object Detection in RGB-D Videos**' 
 
