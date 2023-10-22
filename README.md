@@ -67,7 +67,7 @@ Code for paper, '**Salient Object Detection in RGB-D Videos**'
 
 
 ## RGB-D SOD methods on RDVS dataset
-|**Year**|**Publisher**|**Paper**|**Model**|**DownloadLink1**||**DownloadLink2**|
+|**Year**|**Publisher**|**Paper**|**Model**|**DownloadLink1**|**DownloadLink2**|
 | :-: | :-: | :-: | :-: | :-: | :-: |
 |2020 | ECCV | [**BBSNet**](https://arxiv.org/pdf/2007.02713.pdf)|[Code](https://github.com/DengPingFan/BBS-Net)|[Baidu ](https://pan.baidu.com/s/1eyMummax1HQpeI2CBrWZmA?pwd=obe0)| [Google](https://drive.google.com/file/d/11jY81SsF5sefp_6YqfWhzOgtRL2S_rpS/view?usp=sharing)|
 |2020 | CVPR | [**JLDCF**](https://openaccess.thecvf.com/content_CVPR_2020/papers/Fu_JL-DCF_Joint_Learning_and_Densely-Cooperative_Fusion_Framework_for_RGB-D_Salient_CVPR_2020_paper.pdf)|[Code](https://github.com/kerenfu/JLDCF)|[Baidu](https://pan.baidu.com/s/1kDOohakpxGwVRAv9qtDf5w?pwd=4bgi)| [Google](https://drive.google.com/file/d/1F8bui2_PkbK4tpINLU7iShCyLJUcnUNA/view?usp=sharing)|
