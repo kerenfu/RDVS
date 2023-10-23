@@ -5,7 +5,6 @@
 Code for paper, '**Salient Object Detection in RGB-D Videos**' 
 
 ## Task Relationship
-
 <p align="center">
     <img src="figures/rgbdvsod.png" width="70%" /> <br />
     <em> 
@@ -14,6 +13,9 @@ Code for paper, '**Salient Object Detection in RGB-D Videos**'
 </p>
 
 > To delve into such a potential task, and as one of the earliest works towards RGB-D VSOD, we contributes on two distinct aspects: 1) the dataset, and 2) the model.
+
+## Proposed Dataset: RDVS
+
 
 <p align="center">
     <img src="figures/Overview.png" width="100%" /> <br />
