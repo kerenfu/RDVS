@@ -50,14 +50,14 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
 
 2. Training
    - Download the pre_trained ResNet34 backbone: [Baidu Pan](https://pan.baidu.com/s/11-u_voUDqbHZKO9rdZcjpg?pwd=wm08)(fetch code:wm08) | [Google Drive]() to './model/resnet/pre_train/'.
-   - Download the train dataset (containing DAVIS16, DAVSOD, FBMS and DUTS-TR) from [Downloads](#downloads)(our training set and test set) and save it at './dataset/train/*'.
+   - Download the train dataset (containing DAVIS16, DAVSOD, FBMS and DUTS-TR) from [Our training set and test set](#3-Our-training-set-and-test-set.) and save it at './dataset/train/*'.
    - Download the pre_trained RGB, depth and flow stream models from [Baidu Pan](https://pan.baidu.com/s/1yaKnOoqMLwKI99qyoFVaCA?pwd=wm08)(fetch code:wm08) | [Google Drive]() to './checkpoints/'
      - Noting: the pre_trained RGB should be saved at './checkpoints/spatial', pre_trained depth shoule be saved at './checkpoints/depth' and flow is same. 
    - The training of entire DCTNet is implemented on one NVIDIA RTX 3090 GPU.
      - run  `python train.py` in terminal
 3. Testing
-   - Download the test data (containing DAVIS16, DAVSOD, FBMS, SegTrack-V2, VOS) from [Downloads](#downloads)(our training set and test set) and save it at './dataset/test/*'
-   - Download the trained model from [Downloads](#downloads)(original model ckpt) and modify the  `model_path` to its saving path in the `test.py`.
+   - Download the test data (containing DAVIS16, DAVSOD, FBMS, SegTrack-V2, VOS) from [Our training set and test set](#3-Our-training-set-and-test-set.) and save it at './dataset/test/*'
+   - Download the trained model from [DCTNet+ model](#2-DCTNet+-model.)(original model ckpt) and modify the  `model_path` to its saving path in the `test.py`.
    - Run `python test.py` in the terminal.
 
 
