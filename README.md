@@ -31,7 +31,7 @@ Code for paper, '**Salient Object Detection in RGB-D Videos**'
 
 ## 2 Proposed Dataset: RDVS
 
-> We propose a new RGB-D Video Salient Object Dataset incorporating realistic depth information, and the dataset is named RDVS for short. RDVS contains 57 sequences, totaling 4,087 frames, and its annotation process is guided rigorously by gaze data captured from a professional eye-tracker. The collected video clips encompass various challenging scenarios, \e.g., complex backgrounds, low contrast, occlusion, and heterogeneous objects. We also provide training and testing splits. **Download the RDVS from ["RDVS Dataset"](#4.1-RDVS-dataset).**
+> We propose a new RGB-D Video Salient Object Dataset incorporating realistic depth information, and the dataset is named RDVS for short. RDVS contains 57 sequences, totaling 4,087 frames, and its annotation process is guided rigorously by gaze data captured from a professional eye-tracker. The collected video clips encompass various challenging scenarios, \e.g., complex backgrounds, low contrast, occlusion, and heterogeneous objects. We also provide training and testing splits. **Download the RDVS from ["RDVS Dataset"](#41-RDVS-dataset).**
 
 <p align="center">
     <img src="figures/githubRDVS.png" width="100%" /> <br />
@@ -65,14 +65,14 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
 
 2. Training
    - Download the pre_trained ResNet34 backbone: [Baidu Pan](https://pan.baidu.com/s/11-u_voUDqbHZKO9rdZcjpg?pwd=wm08) | [Google Drive]() to './model/resnet/pre_train/'.
-   - Download the train dataset (containing DAVIS16, DAVSOD, FBMS and DUTS-TR) from [**"Training set and test set"**](#4.3-Training-set-and-test-set) and save it at './dataset/train/*'.
+   - Download the train dataset (containing DAVIS16, DAVSOD, FBMS and DUTS-TR) from [**"Training set and test set"**](#43-Training-set-and-test-set) and save it at './dataset/train/*'.
    - Download the pre_trained RGB, depth and flow stream models from [Baidu Pan](https://pan.baidu.com/s/1yaKnOoqMLwKI99qyoFVaCA?pwd=wm08) | [Google Drive]() to './checkpoints/'
      - Noting: the pre_trained RGB should be saved at './checkpoints/spatial', pre_trained depth shoule be saved at './checkpoints/depth' and flow is same. 
    - The training of entire DCTNet is implemented on one NVIDIA RTX 3090 GPU.
      - run  `python train.py` in terminal
 3. Testing
-   - Download the test data (containing DAVIS16, DAVSOD, FBMS, SegTrack-V2, VOS) from [**"Training set and test set"**](#4.3-Training-set-and-test-set) and save it at './dataset/test/*'
-   - Download the trained model from [**"DCTNet+ model"**](#4.2-DCTNet+-model)(original model ckpt) and modify the  `model_path` to its saving path in the `test.py`.
+   - Download the test data (containing DAVIS16, DAVSOD, FBMS, SegTrack-V2, VOS) from [**"Training set and test set"**](#43-Training-set-and-test-set) and save it at './dataset/test/*'
+   - Download the trained model from [**"DCTNet+ model"**](#42-DCTNet-model)(original model ckpt) and modify the  `model_path` to its saving path in the `test.py`.
    - Run `python test.py` in the terminal.
 
 
