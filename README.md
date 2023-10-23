@@ -4,6 +4,14 @@
 
 Code for paper, '**Salient Object Detection in RGB-D Videos**' 
 
+## Task Relationship
+
+<p align="center">
+    <img src="figures/.png" width="100%" /> <br />
+    <em> 
+    We target at the RGB-D VSOD task, which can be deemed as extension from the prevalent RGB-D SOD and VSOD tasks.
+    </em>
+</p>
 
 
 <p align="center">
