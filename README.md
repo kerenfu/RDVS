@@ -7,12 +7,14 @@ Code for paper, '**Salient Object Detection in RGB-D Videos**'
 ## Task Relationship
 
 <p align="center">
-    <img src="figures/.png" width="100%" /> <br />
+    <img src="figures/rgbdvsod.png" width="100%" /> <br />
     <em> 
     We target at the RGB-D VSOD task, which can be deemed as extension from the prevalent RGB-D SOD and VSOD tasks.
     </em>
 </p>
 
+Due to the limitation of using a single RGB/color modality (image) for SOD (termed RGB SOD), researchers have integrated scene depth information into the SOD task, often referred to as RGB-D SOD, as illustrated in Fig.1. Meanwhile, extending still images to the temporal case yields the video SOD (VSOD) task.
+In light of the advances in acquisition devices equipped with depth sensors (\emph{e.g.}, Kinect, Orbbec Astra, LiDAR, and stereo cameras), RGB-D videos and related data/media have become increasingly popular in people's life, such as in the scenarios of autonomous driving, robotics, medical imaging, gaming, 3D/IMAX movies, and even daily Vlog/clip recording. Therefore, conducting SOD in RGB-D videos holds significant potential and represents an emerging promising direction. However, in the saliency community, SOD in RGB-D videos (called RGB-D VSOD hereafter) remains somewhat under-explored, while RGB-D SOD and VSOD are usually investigated separately and independently along their own pathways. RGB-D VSOD can be deemed as temporal and depth extension from RGB-D SOD and VSOD tasks (Fig.1), respectively. To delve into such a potential task, and as one of the earliest works towards RGB-D VSOD, we contributes on two distinct aspects: 1) the dataset, and 2) the model.
 
 <p align="center">
     <img src="figures/Overview.png" width="100%" /> <br />
