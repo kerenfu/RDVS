@@ -47,12 +47,12 @@ print(torch.cuda.is_available())
 parser.add_argument('--cuda', type=bool, default=True)  # 是否使用cuda
 
 # train
-parser.add_argument('--epoch', type=int, default=25)
+parser.add_argument('--epoch', type=int, default=30)
 parser.add_argument('--epoch_save', type=int, default=5)
 parser.add_argument('--save_fold', type=str, default='./checkpoints')  # 训练过程中输出的保存路径
 parser.add_argument('--input_size', type=int, default=448)
-parser.add_argument('--batch_size', type=int, default=6)
-parser.add_argument('--num_thread', type=int, default=0)
+parser.add_argument('--batch_size', type=int, default=8)
+parser.add_argument('--num_thread', type=int, default=8)
 parser.add_argument('--spatial_ckpt', type=str, default='./checkpoints/spatial/spatial_bone.pth')
 parser.add_argument('--flow_ckpt', type=str, default='./checkpoints/flow/flow_bone.pth')
 parser.add_argument('--depth_ckpt', type=str, default='./checkpoints/depth/depth_bone.pth')
