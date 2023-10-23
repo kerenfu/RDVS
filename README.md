@@ -16,7 +16,7 @@ Code for paper, '**Salient Object Detection in RGB-D Videos**'
 
 ## Proposed Dataset: RDVS
 
-> We propose a new RGB-D Video Salient Object Dataset incorporating realistic depth information, and the dataset is named RDVS for short. RDVS contains 57 sequences, totaling 4,087 frames, and its annotation process is guided rigorously by gaze data captured from a professional eye-tracker. The collected video clips encompass various challenging scenarios, \e.g., complex backgrounds, low contrast, occlusion, and heterogeneous objects. We also provide training and testing splits. **Download the RDVS from [Downloads](#downloads)(RDVS Dataset).**
+> We propose a new RGB-D Video Salient Object Dataset incorporating realistic depth information, and the dataset is named RDVS for short. RDVS contains 57 sequences, totaling 4,087 frames, and its annotation process is guided rigorously by gaze data captured from a professional eye-tracker. The collected video clips encompass various challenging scenarios, \e.g., complex backgrounds, low contrast, occlusion, and heterogeneous objects. We also provide training and testing splits. **Download the RDVS from [RDVS Dataset](#1-RDVS-dataset.).**
 
 <p align="center">
     <img src="figures/githubRDVS.png" width="100%" /> <br />
@@ -62,7 +62,7 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
 
 
 ## Downloads
-### 1. **RDVS dataset.**
+### 1. RDVS dataset.
 - Full dataset with **realistic depth** (4.84G, 57 sequences): [Baidu Pan](链接：https://pan.baidu.com/s/19urVlOpI6u9aoYYAGt4XaA?pwd=wm08)(fetch code:wm08) | [Google Drive](https://drive.google.com/file/d/1qTlyTZH4txUF5BGClBj29VFVxjAuSFCj/view?usp=share_link) (**Update link:2023-10-23**)
 - Full dataset with synthetic deptn (4.76G, 57 sequences): [Baidu Pan](https://pan.baidu.com/s/1pacr_DsFtGI5MRwfx3p2Lw?pwd=wm08)(fetch code:wm08) | [Google Drive]() (**Update link:**)
 - Training Set containing realistic and synthetic depth (2.56G, 32 sequences): [Baidu Pan](https://pan.baidu.com/s/1benryV0Gzdh0iv3-x3P3JA?pwd=wm08)(fetch code:wm08) | [Google Drive]() (**Update link:**)
@@ -70,17 +70,17 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
 - **Noting: realistic depth is in "/Depth" and synthetic depth is in "/SyntheticDepth"**
   
 
-### 2. **DCTNet+ model.**
+### 2. DCTNet+ model.
 - original model ckpt: [Baidu Pan](https://pan.baidu.com/s/1T_f_IPM9cJt4pzWbFTSgQQ?pwd=wm08)(fetch code:wm08) | [Google Drive]()
 - finetune on the test set of RDVS with **realistic depth**: [Baidu Pan](https://pan.baidu.com/s/1zSD_0ZyeSCedcyJcLX0G-w?pwd=wm08)(fetch code:wm08) | [Google Drive]()
 - finetune on the test set of RDVS with **synthetic depth**: [Baidu Pan](https://pan.baidu.com/s/1TpKoZULR-yuAeCvrNVoalg?pwd=wm08)(fetch code:wm08) | [Google Drive]()
 
 
-### 3. **Our training set and test set.**
+### 3. Our training set and test set.
 - training set: [Baidu Pan](https://pan.baidu.com/s/19Rqfims6hGc8MjPkoKCrJg?pwd=wm08)(fetch code:wm08) | [Google Drive]()
 - test set: [Baidu Pan](https://pan.baidu.com/s/1_oNo4X7kSuxNumbTGqeZEg?pwd=wm08)(fetch code:wm08) | [Google Drive]()
 
-### 4. **Saliency Maps on RDVS dataset**
+### 4. Saliency Maps on RDVS dataset.
 - Noting: including RGB-D models, VSOD models, DCTNet and our **DCTNet+(last line)**.
 
   |**Year**|**Publisher**|**Paper**|**Model**|**DownloadLink1**|**DownloadLink2**|
