@@ -6,7 +6,7 @@ Code for paper, '**Salient Object Detection in RGB-D Videos**'
 
 ## Table of Contents
 
-- [RDVS dataset and DCTNet+ model](#Salient-Object-Detection-in-RGB-D-Videos-(RDVS-dataset-and-DCTNet-model))
+- [RDVS dataset and DCTNet+ model](#Salient-Object-Detection-in-RGB-D-Videos-RDVS-dataset-and-DCTNet-model)
   - [1. Task Relationship](#1-Task-Relationship)
   - [2. Proposed Dataset: RDVS](#2-Proposed-Dataset-RDVS)
   - [3. Proposed Model: DCTNet+](#3-Proposed-Model-DCTNet)
@@ -17,7 +17,7 @@ Code for paper, '**Salient Object Detection in RGB-D Videos**'
     - [4.2 DCTNet+ model](#42-DCTNet-model)
     - [4.3 Training set and test set](#43-Training-set-and-test-set)
     - [4.4 Saliency Maps on RDVS dataset](#44-Saliency-Maps-on-RDVS-dataset)
-    - [4.5 Saliency Maps on five benchmark datasets (VSOD and RGB-D VSOD)](#45-Saliency-Maps-on-five-benchmark-datasets-(VSOD-and-RGB-D-VSOD))
+    - [4.5 Saliency Maps on five benchmark datasets (VSOD and RGB-D VSOD)](#45-Saliency-Maps-on-five-benchmark-datasets-VSOD-and-RGB-D-VSOD)
 
 ## 1 Task Relationship
 <p align="center">
