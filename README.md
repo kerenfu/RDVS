@@ -8,13 +8,22 @@ Code for paper, '**Salient Object Detection in RGB-D Videos**'
 <p align="center">
     <img src="figures/rgbdvsod.png" width="70%" /> <br />
     <em> 
-    Due to the limitation of using a single RGB/color modality (image) for SOD (termed RGB SOD), researchers have integrated scene depth information into the SOD task, often referred to as RGB-D SOD. Meanwhile, extending still images to the temporal case yields the video SOD (VSOD) task. We target at the RGB-D VSOD task, which can be deemed as extension from the prevalent RGB-D SOD and VSOD tasks.
+    Figure 1: Due to the limitation of using a single RGB/color modality (image) for SOD (termed RGB SOD), researchers have integrated scene depth information into the SOD task, often referred to as RGB-D SOD. Meanwhile, extending still images to the temporal case yields the video SOD (VSOD) task. We target at the RGB-D VSOD task, which can be deemed as extension from the prevalent RGB-D SOD and VSOD tasks.
     </em>
 </p>
 
 > To delve into such a potential task, and as one of the earliest works towards RGB-D VSOD, we contributes on two distinct aspects: 1) the dataset, and 2) the model.
 
 ## Proposed Dataset: RDVS
+<p align="center">
+    <img src="figures/githubRDVS.png" width="70%" /> <br />
+    <em> 
+    Figure 2: Statistics of the proposed RDVS dataset.
+    </em>
+</p>
+Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b) The pairwise dependencies across different attributes. (c) Scene/object categories of RDVS. (d) Center bias of RDVS and existing VSOD datasets.
+
+
 
 
 <p align="center">
