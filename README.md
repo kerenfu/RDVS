@@ -86,7 +86,7 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
   
 
 ### 4.2 DCTNet+ model
-- original model ckpt: [Baidu Pan](https://pan.baidu.com/s/1T_f_IPM9cJt4pzWbFTSgQQ?pwd=wm08) | [Google Drive]() (**Update link:2023-10-23**)
+- original model ckpt: [Baidu Pan](https://pan.baidu.com/s/1T_f_IPM9cJt4pzWbFTSgQQ?pwd=wm08) | [Google Drive](https://drive.google.com/file/d/1S8fu419aiXQt-a09SyGD1dXr6V--BjUU/view?usp=share_link) (**Update link:2023-10-23**)
 - finetune on the test set of RDVS with **realistic depth**: [Baidu Pan](https://pan.baidu.com/s/1zSD_0ZyeSCedcyJcLX0G-w?pwd=wm08) | [Google Drive]() (**Update link:2023-10-23**)
 - finetune on the test set of RDVS with **synthetic depth**: [Baidu Pan](https://pan.baidu.com/s/1TpKoZULR-yuAeCvrNVoalg?pwd=wm08) | [Google Drive]() (**Update link:2023-10-23**)
 
