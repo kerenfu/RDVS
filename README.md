@@ -121,11 +121,11 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
   |2021 | ICCV | [**FSNet**](https://openaccess.thecvf.com/content/ICCV2021/papers/Ji_Full-Duplex_Strategy_for_Video_Object_Segmentation_ICCV_2021_paper.pdf)|[Code](https://github.com/GewelsJI/FSNet)|[Baidu]()|[Google]()|
   |2021 | ICCV | [**DCFNet**](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_Dynamic_Context-Sensitive_Filtering_Network_for_Video_Salient_Object_Detection_ICCV_2021_paper.pdf)|[Code](https://github.com/Roudgers/DCFNet)|[Baidu]()|[Google]()|
   |2022 | NIPS | [**UGPL**]()|[Code]()|[Baidu]()|[Google]()|
-  |2022 | SPL | [**MGTNet**]()|[Code]()|[Baidu]()|[Google]()|
+  |2022 | SPL | [**MGTNet**]()|[Code](https://github.com/mindingyao/MGT-Net)|[Baidu]()|[Google]()|
   |2023 | TNNLS | [**CoSTFormer**]()| -- |[Baidu]()|[Google]()|
   **RGB-D VSOD Models**
   |2022 | ICIP | [**DCTNet**](https://arxiv.org/pdf/2202.06060.pdf)|[Code](https://github.com/luyukang/DCTNet)|[Baidu]()|[Google]()|
-  | -- | -- | **DCTNet+** | -- |[Baidu]()|[Google]()|
+  | -- | -- | **DCTNet+** | -- |[Baidu](https://pan.baidu.com/s/1h4nbs_WVneMRLPcGPHFezQ?pwd=wm08)|[Google]()|
   
   
   
