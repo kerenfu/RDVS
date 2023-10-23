@@ -16,7 +16,7 @@ Code for paper, '**Salient Object Detection in RGB-D Videos**'
 
 ## Proposed Dataset: RDVS
 
-> We propose a new RGB-D Video Salient Object Dataset incorporating realistic depth information, and the dataset is named RDVS for short. RDVS contains 57 sequences, totaling 4,087 frames, and its annotation process is guided rigorously by gaze data captured from a professional eye-tracker. The collected video clips encompass various challenging scenarios, \e.g., complex backgrounds, low contrast, occlusion, and heterogeneous objects. **Download the RDVS from [Downloads](#downloads)(RDVS Dataset).**
+> We propose a new RGB-D Video Salient Object Dataset incorporating realistic depth information, and the dataset is named RDVS for short. RDVS contains 57 sequences, totaling 4,087 frames, and its annotation process is guided rigorously by gaze data captured from a professional eye-tracker. The collected video clips encompass various challenging scenarios, \e.g., complex backgrounds, low contrast, occlusion, and heterogeneous objects. We also provide training and testing splits. **Download the RDVS from [Downloads](#downloads)(RDVS Dataset).**
 
 <p align="center">
     <img src="figures/githubRDVS.png" width="100%" /> <br />
@@ -32,14 +32,33 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
     </em>
 </p>
 
-
-
+## Proposed Model: DCTNet+
+### Overview
 <p align="center">
     <img src="figures/Overview.png" width="100%" /> <br />
     <em> 
     Overview of DCTNet+. (a) shows the big picture. (b) and (c) show the details of MAM and RFM, respectively. In the attention operations on the right-hand side in (c), since the coordinate attention and spatial attention processes are similar, the operations of spatial attention are represented in parentheses and are not repeated.
     </em>
 </p>
+
+### Usage
+1. Requirements
+   - Python 3.9
+   - PyTorch 1.12.1
+   - Torchvision 0.13.1
+   - Cuda 11.6
+
+2. Training
+   - Download the pre_trained ResNet34 backbone: [Baidu Pan](https://pan.baidu.com/s/11-u_voUDqbHZKO9rdZcjpg?pwd=wm08)(fetch code:wm08) | [Google Drive]() to './model/resnet/pre_train/'.
+   - Download the train dataset (containing DAVIS16, DAVSOD, FBMS and DUTS-TR) from [Downloads](#downloads)(our training set and test set) and save it at './dataset/train/*'.
+   - Download the pre_trained RGB, depth and flow stream models from [Baidu Pan](https://pan.baidu.com/s/1yaKnOoqMLwKI99qyoFVaCA?pwd=wm08)(fetch code:wm08) | [Google Drive]() to './checkpoints/'
+     - Noting: the pre_trained RGB should be saved at './checkpoints/spatial', pre_trained depth shoule be saved at './checkpoints/depth' and flow is same. 
+   - The training of entire DCTNet is implemented on one NVIDIA RTX 3090 GPU.
+     - run  `python train.py` in terminal
+3. Testing
+   - Download the test data (containing DAVIS16, DAVSOD, FBMS, SegTrack-V2, VOS) from [Downloads](#downloads)(our training set and test set) and save it at './dataset/test/*'
+   - Download the trained model from [Downloads](#downloads)(original model ckpt) and modify the  `model_path` to its saving path in the `test.py`.
+   - Run `python test.py` in the terminal.
 
 
 ## Downloads
@@ -62,25 +81,6 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
    - test set: [Baidu Pan](https://pan.baidu.com/s/1_oNo4X7kSuxNumbTGqeZEg?pwd=wm08)(fetch code:wm08) | [Google Drive]()
 
 
-
-## Usage
-1. Requirements
-   - Python 3.9
-   - PyTorch 1.12.1
-   - Torchvision 0.13.1
-   - Cuda 11.6
-
-2. Training
-   - Download the pre_trained ResNet34 backbone: [Baidu Pan](https://pan.baidu.com/s/11-u_voUDqbHZKO9rdZcjpg?pwd=wm08)(fetch code:wm08) | [Google Drive]() to './model/resnet/pre_train/'.
-   - Download the train dataset (containing DAVIS16, DAVSOD, FBMS and DUTS-TR) from [Downloads](#downloads)(our training set and test set) and save it at './dataset/train/*'.
-   - Download the pre_trained RGB, depth and flow stream models from [Baidu Pan](https://pan.baidu.com/s/1yaKnOoqMLwKI99qyoFVaCA?pwd=wm08)(fetch code:wm08) | [Google Drive]() to './checkpoints/'
-     - Noting: the pre_trained RGB should be saved at './checkpoints/spatial', pre_trained depth shoule be saved at './checkpoints/depth' and flow is same. 
-   - The training of entire DCTNet is implemented on one NVIDIA RTX 3090 GPU.
-     - run  `python train.py` in terminal
-3. Testing
-   - Download the test data (containing DAVIS16, DAVSOD, FBMS, SegTrack-V2, VOS) from [Downloads](#downloads)(our training set and test set) and save it at './dataset/test/*'
-   - Download the trained model from [Downloads](#downloads)(original model ckpt) and modify the  `model_path` to its saving path in the `test.py`.
-   - Run `python test.py` in the terminal.
    
 
 ## VSOD methods on RDVS and Six benchmark datasets
