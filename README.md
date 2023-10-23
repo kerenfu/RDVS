@@ -82,6 +82,7 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
 
 4. **Saliency Maps on RDVS dataset**
    - Noting: including RGB-D models, VSOD models, DCTNet and our DCTNet+.
+
 |**Year**|**Publisher**|**Paper**|**Model**|**DownloadLink1**|**DownloadLink2**|
 | :-: | :-: | :-: | :-: | :-: | :-: |
 **RGB-D SOD Models**
