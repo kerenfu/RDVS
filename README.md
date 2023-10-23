@@ -4,7 +4,6 @@
 
 Code for paper, '**Salient Object Detection in RGB-D Videos**' 
 
-[**Supplementary material** is also attached in the repo]
 
 
 <p align="center">
@@ -17,44 +16,44 @@ Code for paper, '**Salient Object Detection in RGB-D Videos**'
 
 ## Downloads
 1. **RDVS dataset.**
-   - Full dataset with **realistic depth** (4.84G, 57 sequences): [Baidu Pan]()(fetch code: ) | [Google Drive]() (**Update link:**)
-   - Full dataset with synthetic deptn (4.76G, 57 sequences): [Baidu Pan]()(fetch code: ) | [Google Drive]() (**Update link:**)
-   - Training Set containing realistic and synthetic depth (2.56G, 32 sequences): [Baidu Pan]()(fetch code: ) | [Google Drive]() (**Update link:**)
-   - Test Set containing realistic and synthetic depth (2.30G, 25 sequences): [Baidu Pan]()(fetch code: ) | [Google Drive]() (**Update link:**)
+   - Full dataset with **realistic depth** (4.84G, 57 sequences): [Baidu Pan](链接：https://pan.baidu.com/s/19urVlOpI6u9aoYYAGt4XaA?pwd=wm08)(fetch code:wm08) | [Google Drive](https://drive.google.com/file/d/1qTlyTZH4txUF5BGClBj29VFVxjAuSFCj/view?usp=share_link) (**Update link:2023-10-23**)
+   - Full dataset with synthetic deptn (4.76G, 57 sequences): [Baidu Pan](https://pan.baidu.com/s/1pacr_DsFtGI5MRwfx3p2Lw?pwd=wm08)(fetch code:wm08) | [Google Drive]() (**Update link:**)
+   - Training Set containing realistic and synthetic depth (2.56G, 32 sequences): [Baidu Pan](https://pan.baidu.com/s/1benryV0Gzdh0iv3-x3P3JA?pwd=wm08)(fetch code:wm08) | [Google Drive]() (**Update link:**)
+   - Test Set containing realistic and synthetic depth (2.30G, 25 sequences): [Baidu Pan](https://pan.baidu.com/s/1Oa6P2HwZ9kFlyZ6pTRj-7g?pwd=wm08)(fetch code:wm08) | [Google Drive]() (**Update link:**)
    - **Noting: realistic depth is in "/Depth" and synthetic depth is in "/SyntheticDepth"**
   
 
 2. **DCTNet+ model.**
-   - original model ckpt: [Baidu Pan](https://pan.baidu.com/s/1T_f_IPM9cJt4pzWbFTSgQQ?pwd=wm08)(fetch code: wm08) | [Google Drive]()
-   - finetune on the test set of RDVS with **realistic depth**: [Baidu Pan](https://pan.baidu.com/s/1zSD_0ZyeSCedcyJcLX0G-w?pwd=wm08)(fetch code: wm08) | [Google Drive]()
-   - finetune on the test set of RDVS with **synthetic depth**: [Baidu Pan](https://pan.baidu.com/s/1TpKoZULR-yuAeCvrNVoalg?pwd=wm08)(fetch code: wm08) | [Google Drive]()
+   - original model ckpt: [Baidu Pan](https://pan.baidu.com/s/1T_f_IPM9cJt4pzWbFTSgQQ?pwd=wm08)(fetch code:wm08) | [Google Drive]()
+   - finetune on the test set of RDVS with **realistic depth**: [Baidu Pan](https://pan.baidu.com/s/1zSD_0ZyeSCedcyJcLX0G-w?pwd=wm08)(fetch code:wm08) | [Google Drive]()
+   - finetune on the test set of RDVS with **synthetic depth**: [Baidu Pan](https://pan.baidu.com/s/1TpKoZULR-yuAeCvrNVoalg?pwd=wm08)(fetch code:wm08) | [Google Drive]()
 
 
 3. **our training set and test set**
-   - training set: [Baidu Pan]()(fetch code: ) | [Google Drive]()
-   - test set: [Baidu Pan]()(fetch code: ) | [Google Drive]()
+   - training set: [Baidu Pan](https://pan.baidu.com/s/19Rqfims6hGc8MjPkoKCrJg?pwd=wm08)(fetch code:wm08) | [Google Drive]()
+   - test set: [Baidu Pan](https://pan.baidu.com/s/1_oNo4X7kSuxNumbTGqeZEg?pwd=wm08)(fetch code:wm08) | [Google Drive]()
 
 
 
 ## Usage
 1. Requirements
-   - Python
-   - PyTorch
-   - Torchvision
-   - Cuda
+   - Python 3.9
+   - PyTorch 1.12.1
+   - Torchvision 0.13.1
+   - Cuda 11.6
 
 2. Training
-   - Download the pre_trained ResNet34 backbone: [Baidu Pan]()(fetch code: ) | [Google Drive]() to './model/resnet/pre_train/'.
-   - Download the train dataset (containing DAVIS16, DAVSOD, FBMS and DUTS-TR) from [Baidu Pan]()(fetch code: ) | [Google Drive]() and save it at './dataset/train/*'.
-   - Download the pre_trained RGB, depth and flow stream models from [Baidu Pan]()(fetch code: ) | [Google Drive]() to './checkpoints/'
+   - Download the pre_trained ResNet34 backbone: [Baidu Pan](https://pan.baidu.com/s/11-u_voUDqbHZKO9rdZcjpg?pwd=wm08)(fetch code:wm08) | [Google Drive]() to './model/resnet/pre_train/'.
+   - Download the train dataset (containing DAVIS16, DAVSOD, FBMS and DUTS-TR) from [Downloads](#downloads)(our training set and test set) and save it at './dataset/train/*'.
+   - Download the pre_trained RGB, depth and flow stream models from [Baidu Pan](https://pan.baidu.com/s/1yaKnOoqMLwKI99qyoFVaCA?pwd=wm08)(fetch code:wm08) | [Google Drive]() to './checkpoints/'
      - Noting: the pre_trained RGB should be saved at './checkpoints/spatial', pre_trained depth shoule be saved at './checkpoints/depth' and flow is same. 
    - The training of entire DCTNet is implemented on one NVIDIA RTX 3090 GPU.
      - run  `python train.py` in terminal
 3. Testing
-   - Download the test data (containing DAVIS16, DAVSOD, FBMS, SegTrack-V2, VOS) from  [Baidu Pan]()(fetch code: ) | [Google Drive]() and save it at './dataset/test/*'
+   - Download the test data (containing DAVIS16, DAVSOD, FBMS, SegTrack-V2, VOS) from [Downloads](#downloads)(our training set and test set) and save it at './dataset/test/*'
    - Download the trained model from [Downloads](#downloads)(original model ckpt) and modify the  `model_path` to its saving path in the `test.py`.
    - Run `python test.py` in the terminal.
-   - 
+   
 
 ## VSOD methods on RDVS and Six benchmark datasets
 |**Year**|**Publisher**|**Paper**|**Model**|**RDVS**|**DAVIS**|**DAVSOD**|**FBMS**|**SegV2**|**ViSal**|**VOS**|
