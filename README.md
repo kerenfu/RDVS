@@ -163,6 +163,31 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
     </em>
 </p>
 
+### 5.2 Qualitative comparison
+<p align="center">
+    <img src="figures/VisialComparison.png" width="100%" /> <br />
+    <em> 
+    Figure 4. Qualitative comparison of our DCTNet+ model and SOTA methods on conventional VSOD benchmarks.
+    </em>
+</p>
+
+### 5.3 Quantitative comparison on RDVS
+<p align="center">
+    <img src="figures/sotaOnRDVS.png" width="100%" /> <br />
+    <em> 
+    Table 2. Results of SOTA methods in different fields and the proposed method on RDVS dataset, where the suffix "⋇" indicates RGB-D VSOD techniques, ↑/↓ denotes that the larger/smaller value is better. The best are stressed in **BOLD**. 
+    </em>
+</p>
+
+### 5.4 Qualitative comparison on RDVS
+<p align="center">
+    <img src="figures/RDVSVisial.png" width="100%" /> <br />
+    <em> 
+    Figure 5. Qualitative comparison on the proposed RDVS dataset.
+    </em>
+</p>
+
+
 
 
 
