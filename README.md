@@ -178,7 +178,7 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
 
 ### 5.3 Quantitative comparison on RDVS
 <p align="center">
-    <img src="figures/sotaOnRDVS.png" width="100%" /> <br />
+    <img src="figures/sotaOnRDVS.png" width="70%" /> <br />
     <em> 
     Table 2. Results of SOTA methods in different fields and the proposed method on RDVS dataset, where the suffix "⋇" indicates RGB-D VSOD techniques, ↑/↓ denotes that the larger/smaller value is better. The best are stressed in **BOLD**. 
     </em>
