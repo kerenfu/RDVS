@@ -6,7 +6,7 @@ Code for paper, '**Salient Object Detection in RGB-D Videos**'
 
 ## Table of Contents
 
-- [RDVS dataset and DCTNet+ model](#Salient-Object-Detection-in-RGB-D-Videos-RDVS-dataset-and-DCTNet-model)
+- [RDVS dataset and DCTNet+ model <a name="headin"></a>](#Salient-Object-Detection-in-RGB-D-Videos-RDVS-dataset-and-DCTNet-model)
   - [1. Task Relationship](#1-Task-Relationship)
   - [2. Proposed Dataset: RDVS](#2-Proposed-Dataset-RDVS)
   - [3. Proposed Model: DCTNet+](#3-Proposed-Model-DCTNet)
@@ -66,7 +66,7 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
 <p align="center">
     <img src="figures/Overview.png" width="100%" /> <br />
     <em> 
-    Overview of DCTNet+. (a) shows the big picture. (b) and (c) show the details of MAM and RFM, respectively. In the attention operations on the right-hand side in (c), since the coordinate attention and spatial attention processes are similar, the operations of spatial attention are represented in parentheses and are not repeated.
+    Figure 4. Overview of DCTNet+. (a) shows the big picture. (b) and (c) show the details of MAM and RFM, respectively. In the attention operations on the right-hand side in (c), since the coordinate attention and spatial attention processes are similar, the operations of spatial attention are represented in parentheses and are not repeated.
     </em>
 </p>
 
@@ -173,7 +173,7 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
 <p align="center">
     <img src="figures/VisualComparison.png" width="100%" /> <br />
     <em> 
-    Figure 4. Qualitative comparison of our DCTNet+ model and SOTA methods on conventional VSOD benchmarks.
+    Figure 5. Qualitative comparison of our DCTNet+ model and SOTA methods on conventional VSOD benchmarks.
     </em>
 </p>
 
@@ -188,7 +188,7 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
 <p align="center">
     <img src="figures/RDVSVisual.png" width="100%" /> <br />
     <em> 
-    Figure 5. Qualitative comparison on the proposed RDVS dataset.
+    Figure 6. Qualitative comparison on the proposed RDVS dataset.
     </em>
 </p>
 
@@ -217,6 +217,6 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
 
 
 
-
+[⬆ back to top](#headin)
 
 
