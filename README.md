@@ -21,8 +21,9 @@ Code for paper, '**Salient Object Detection in RGB-D Videos**'
   - [5. Results](#5-Results)
     - [5.1 Quantitative comparison on 5 benchmark datasets](#51-Quantitative-comparison-on-5-benchmark-datasets)
     - [5.2 Qualitative comparison](#52-Qualitative-comparison)
-    - [5.3 Quantitative comparison on RDVS](#53-Quantitative-comparison-on-RDVS)
-    - [5.4 Qualitative comparison on RDVS](#54-Qualitative-comparison-on-RDVS)
+    - [5.3 Straightforward evaluation on the full RDVS dataset](#53-Straightforward-evaluation-on-the-full-RDVS-dataset)
+    - [5.4 Evaluation on RDVS test set after fine-tuning](#54-Evaluation-on-RDVS-test-set-after-fine-tuning)
+    - [5.5 Synthetic depth v.s. realistic depth](#55-Synthetic-depth-vs-realistic-depth)
 
 ## 1 Task Relationship
 <p align="center">
@@ -176,7 +177,7 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
     </em>
 </p>
 
-### 5.3 Quantitative comparison on RDVS
+### 5.3 Straightforward evaluation on the full RDVS dataset
 <p align="center">
     <img src="figures/sotaOnRDVS.png" width="70%" /> <br />
     <em> 
@@ -184,11 +185,33 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
     </em>
 </p>
 
-### 5.4 Qualitative comparison on RDVS
 <p align="center">
     <img src="figures/RDVSVisual.png" width="100%" /> <br />
     <em> 
     Figure 5. Qualitative comparison on the proposed RDVS dataset.
+    </em>
+</p>
+
+### 5.4 Evaluation on RDVS test set after fine-tuning
+<p align="center">
+    <img src="figures/RDVStestset.png" width="70%" /> <br />
+    <em> 
+    Table 3. Results of SOTA methods in different fields as well as the proposed method on RDVS testing set. The left half are the results of the original model applied directly on the RDVS testing set, and the right half are the results obtained by re-training the models consistently on the RDVS training set and then evaluating them on the RDVS testing set. The best are stressed in **BOLD**.
+    </em>
+</p>
+
+### 5.5 Synthetic depth v.s. realistic depth
+<p align="center">
+    <img src="figures/synvsreal1.png" width="70%" /> <br />
+    <em> 
+    Table 4. Experimental results of comparing synthetic depth maps and realistic depth maps by applying the original models to the full RDVS dataset. The best are stressed in **BOLD**.
+    </em>
+</p>
+
+<p align="center">
+    <img src="figures/synvsreal2.png" width="70%" /> <br />
+    <em> 
+    Table 5. Experimental results of comparing synthetic depth maps and realistic depth maps by fine-tuning the models on the RDVS training set. The best are stressed in **BOLD**.
     </em>
 </p>
 
