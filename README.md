@@ -37,7 +37,7 @@ Code for paper, '**Salient Object Detection in RGB-D Videos**'
 
 ## 2 Proposed Dataset: RDVS
 
-> We propose a new RGB-D Video Salient Object Dataset incorporating realistic depth information, and the dataset is named RDVS for short. RDVS contains 57 sequences, totaling 4,087 frames, and its annotation process is guided rigorously by gaze data captured from a professional eye-tracker. The collected video clips encompass various challenging scenarios, \e.g., complex backgrounds, low contrast, occlusion, and heterogeneous objects. We also provide training and testing splits. **Download the RDVS from ["RDVS Dataset"](#41-RDVS-dataset).**
+> We propose a new RGB-D Video Salient Object Dataset incorporating realistic depth information, and the dataset is named RDVS for short. RDVS contains 57 sequences, totaling 4,087 frames, and its annotation process is guided rigorously by gaze data captured from a professional eye-tracker. The collected video clips encompass various challenging scenarios, e.g., complex backgrounds, low contrast, occlusion, and heterogeneous objects. We also provide training and testing splits. **Download the RDVS from ["RDVS Dataset"](#41-RDVS-dataset).**
 
 <p align="center">
     <img src="figures/githubRDVS.png" width="100%" /> <br />
