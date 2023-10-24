@@ -51,7 +51,7 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
 
 <p align="center">
 		<em>
-		Click the above image to watch saliency shift of all sequences in RDVS dataset
+		Click the above figure to watch saliency shift of all sequences in RDVS dataset
 		</em>
 </p>
 
