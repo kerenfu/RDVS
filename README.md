@@ -18,6 +18,11 @@ Code for paper, '**Salient Object Detection in RGB-D Videos**'
     - [4.3 Training set and test set](#43-Training-set-and-test-set)
     - [4.4 Saliency Maps on RDVS dataset](#44-Saliency-Maps-on-RDVS-dataset)
     - [4.5 Saliency Maps on five benchmark datasets (pseudo RGB-D video datasets)](#45-Saliency-Maps-on-five-benchmark-datasets-pseudo-RGB-D-video-datasets)
+  - [5. Results](#5-Results)
+    - [5.1 Quantitative comparison on 5 benchmark datasets](#51-Quantitative-comparison-on-5-benchmark-datasets)
+    - [5.2 Qualitative comparison](#52-Qualitative-comparison)
+    - [5.3 Quantitative comparison on RDVS](#53-Quantitative-comparison-on-RDVS)
+    - [5.4 Qualitative comparison on RDVS](#54-Qualitative-comparison-on-RDVS)
 
 ## 1 Task Relationship
 <p align="center">
@@ -181,7 +186,7 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
 
 ### 5.4 Qualitative comparison on RDVS
 <p align="center">
-    <img src="figures/RDVSVisial.png" width="100%" /> <br />
+    <img src="figures/RDVSVisual.png" width="100%" /> <br />
     <em> 
     Figure 5. Qualitative comparison on the proposed RDVS dataset.
     </em>
