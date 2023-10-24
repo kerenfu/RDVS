@@ -165,7 +165,7 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
 
 ### 5.2 Qualitative comparison
 <p align="center">
-    <img src="figures/VisialComparison.png" width="100%" /> <br />
+    <img src="figures/VisualComparison.png" width="100%" /> <br />
     <em> 
     Figure 4. Qualitative comparison of our DCTNet+ model and SOTA methods on conventional VSOD benchmarks.
     </em>
