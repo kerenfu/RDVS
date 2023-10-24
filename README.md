@@ -8,7 +8,7 @@ Code for paper, '**Salient Object Detection in RGB-D Videos**'
 
 - [RDVS dataset and DCTNet+ model <a name="headin"></a>](#Salient-Object-Detection-in-RGB-D-Videos-RDVS-dataset-and-DCTNet-model)
   - [1. Task Relationship](#1-Task-Relationship)
-  - [2. Proposed Dataset: RDVS](#2-Proposed-Dataset-RDVS)
+  - [**2. Proposed Dataset: RDVS**](#2-Proposed-Dataset-RDVS)
   - [3. Proposed Model: DCTNet+](#3-Proposed-Model-DCTNet)
     - [3.1 Overview](#31-Overview)
     - [3.2 Usage](#32-Usage)
