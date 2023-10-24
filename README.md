@@ -47,6 +47,14 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
     </em>
 </p>
 
+[![Watch the video](figures/RDVS_video.png)](https://youtu.be/wJpgyDf9594)
+
+<p align="center">
+		<em>
+		Click the above image to watch saliency shift of all sequences in RDVS dataset
+		</em>
+</p>
+
 ## 3 Proposed Model: DCTNet+
 ### 3.1 Overview
 <p align="center">
