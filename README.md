@@ -55,7 +55,7 @@ Code for paper, [**Salient Object Detection in RGB-D Videos**](https://arxiv.org
     </em>
 </p>
 &nbsp;
-
+  
 
 [![Watch the video](figures/RDVS_video.png)](https://youtu.be/wJpgyDf9594)
 
