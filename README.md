@@ -215,9 +215,10 @@ Table 4. Experimental results of comparing synthetic depth maps and realistic de
 </p>
 &nbsp;
 
+
 <em> 
 Table 5. Experimental results of comparing synthetic depth maps and realistic depth maps by fine-tuning the models on the RDVS training set. The best are stressed in BOLD.
-</em><br /> 
+</em>
 <p align="center">
     <img src="figures/synvsreal2.png" width="70%" /> <br /> 
 </p>
