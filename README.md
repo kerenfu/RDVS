@@ -54,7 +54,7 @@ Code for paper, [**Salient Object Detection in RGB-D Videos**](https://arxiv.org
     Figure 3: Illustrative frames (with depth in the bottom-right) from RDVS with fixations (red dots, the top row) and the corresponding continuous saliency maps (overlaying on the RGB frames, the bottom row).
     </em>
 </p>
-
+&nbsp;
 
 
 [![Watch the video](figures/RDVS_video.png)](https://youtu.be/wJpgyDf9594)
