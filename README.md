@@ -183,13 +183,14 @@ Table 1. Quantitative comparison with state-of-the-art VSOD methods on 5 benchma
 </p>
 
 ### 5.3 Straightforward evaluation on the full RDVS dataset
-<p align="center">
-    <img src="figures/sotaOnRDVS.png" width="70%" /> <br />
-    <em> 
+<em> 
     Table 2. Results of SOTA methods in different fields and the proposed method on RDVS dataset, where the suffix "⋇" indicates RGB-D VSOD techniques, ↑/↓ denotes that the larger/smaller value is better. The best are stressed in BOLD. 
-    </em>
+</em>
+<p align="center">
+    <img src="figures/sotaOnRDVS.png" width="70%" /> <br />    
 </p>
-
+&nbsp;
+  
 <p align="center">
     <img src="figures/RDVSVisual.png" width="100%" /> <br />
     <em> 
@@ -198,26 +199,27 @@ Table 1. Quantitative comparison with state-of-the-art VSOD methods on 5 benchma
 </p>
 
 ### 5.4 Evaluation on RDVS test set after fine-tuning
+<em> 
+    Table 3. Results of SOTA methods in different fields as well as the proposed method on RDVS testing set. The left half are the results of the original model applied directly on the RDVS testing set, and the right half are the results obtained by re-training the models consistently on the RDVS training set and then evaluating them on the RDVS testing set. The best are stressed in BOLD.
+</em>
 <p align="center">
     <img src="figures/RDVStestset.png" width="70%" /> <br />
-    <em> 
-    Table 3. Results of SOTA methods in different fields as well as the proposed method on RDVS testing set. The left half are the results of the original model applied directly on the RDVS testing set, and the right half are the results obtained by re-training the models consistently on the RDVS training set and then evaluating them on the RDVS testing set. The best are stressed in BOLD.
-    </em>
 </p>
 
 ### 5.5 Synthetic depth v.s. realistic depth
+ <em> 
+    Table 4. Experimental results of comparing synthetic depth maps and realistic depth maps by applying the original models to the full RDVS dataset. The best are stressed in BOLD.
+</em>
 <p align="center">
     <img src="figures/synvsreal1.png" width="70%" /> <br />
-    <em> 
-    Table 4. Experimental results of comparing synthetic depth maps and realistic depth maps by applying the original models to the full RDVS dataset. The best are stressed in BOLD.
-    </em>
 </p>
+&nbsp;
 
-<p align="center">
-    <img src="figures/synvsreal2.png" width="70%" /> <br />
-    <em> 
+<em> 
     Table 5. Experimental results of comparing synthetic depth maps and realistic depth maps by fine-tuning the models on the RDVS training set. The best are stressed in BOLD.
-    </em>
+</em>
+<p align="center">
+    <img src="figures/synvsreal2.png" width="70%" /> <br /> 
 </p>
 
 ## 6 Citation
