@@ -24,6 +24,7 @@ Code for paper, '**Salient Object Detection in RGB-D Videos**'
     - [5.3 Straightforward evaluation on the full RDVS dataset](#53-Straightforward-evaluation-on-the-full-RDVS-dataset)
     - [5.4 Evaluation on RDVS test set after fine-tuning](#54-Evaluation-on-RDVS-test-set-after-fine-tuning)
     - [5.5 Synthetic depth v.s. realistic depth](#55-Synthetic-depth-vs-realistic-depth)
+  - [6. Citation](#6-Citation)
 
 ## 1 Task Relationship
 <p align="center">
@@ -215,6 +216,28 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
     </em>
 </p>
 
+## 6 Citation
+Please cite our paper if you find the work useful:
+
+```
+@inproceedings{lu2022depth,
+  title={Depth-cooperated trimodal network for video salient object detection},
+  author={Lu, Yukang and Min, Dingyao and Fu, Keren and Zhao, Qijun},
+  booktitle={2022 IEEE International Conference on Image Processing (ICIP)},
+  pages={116--120},
+  year={2022},
+  organization={IEEE}
+}
+
+@misc{mou2023RDVS,
+      title={Salient Object Detection in RGB-D Videos}, 
+      author={Ao Mou and Yukang Lu and Jiahao He and Dingyao Min and Keren Fu and Qijun Zhao},
+      year={2023},
+      eprint={2310.15482},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 
 [⬆ back to top](#headin)
