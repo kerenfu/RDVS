@@ -167,7 +167,9 @@ Code for paper, [**Salient Object Detection in RGB-D Videos**](https://arxiv.org
   
 ## 5 Results
 ### 5.1 Quantitative comparison on 5 benchmark datasets
+<em>
 Table 1. Quantitative comparison with state-of-the-art VSOD methods on 5 benchmark datasets. The top three results are represented in red, green, and blue from top to bottom, respectively. ↑/↓ denotes that the larger/smaller value is better. Symbol `**' means that results are not available.
+</em>
 <p align="center">
     <img src="figures/sota.png" width="100%" /> <br />
 </p>
