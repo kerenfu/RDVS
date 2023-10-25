@@ -47,12 +47,16 @@ Code for paper, [**Salient Object Detection in RGB-D Videos**](https://arxiv.org
     </em>
 </p>
 Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b) The pairwise dependencies across different attributes. (c) Scene/object categories of RDVS. (d) Center bias of RDVS and existing VSOD datasets.
+
+
 <p align="center">
     <img src="figures/Fig_fixation.png" width="100%" /> <br />
     <em> 
     Figure 3: Illustrative frames (with depth in the bottom-right) from RDVS with fixations (red dots, the top row) and the corresponding continuous saliency maps (overlaying on the RGB frames, the bottom row).
     </em>
 </p>
+
+
 
 [![Watch the video](figures/RDVS_video.png)](https://youtu.be/wJpgyDf9594)
 
@@ -79,11 +83,11 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
    - Cuda 11.6
 
 2. Training
-   - Download the pre_trained ResNet34 backbone: [Baidu Pan](https://pan.baidu.com/s/11-u_voUDqbHZKO9rdZcjpg?pwd=wm08) | [Google Drive](https://drive.google.com/file/d/1rhuK4dq7ku2ynnFLspHJC-Zp0vXIbuLi/view?usp=share_link) to './model/resnet/pre_train/'.
+   - Download the pretrained ResNet34 backbone: [Baidu Pan](https://pan.baidu.com/s/11-u_voUDqbHZKO9rdZcjpg?pwd=wm08) | [Google Drive](https://drive.google.com/file/d/1rhuK4dq7ku2ynnFLspHJC-Zp0vXIbuLi/view?usp=share_link) to './model/resnet/pre_train/'.
    - Download the train dataset (containing DAVIS16, DAVSOD, FBMS and DUTS-TR) from [**"Training set and test set"**](#43-Training-set-and-test-set) and save it at './dataset/train/*'.
    - Download the pre_trained RGB, depth and flow stream models from [Baidu Pan](https://pan.baidu.com/s/1yaKnOoqMLwKI99qyoFVaCA?pwd=wm08) | [Google Drive](https://drive.google.com/drive/folders/1DAekgSdIrZH_1a72u-Ikv-LvY5y7Ths5?usp=share_link) to './checkpoints/'
      - Noting: the pre_trained RGB should be saved at './checkpoints/spatial', pre_trained depth shoule be saved at './checkpoints/depth' and flow is same. 
-   - The training of entire DCTNet is implemented on one NVIDIA RTX 3090 GPU.
+   - The training of entire DCTNet+ utilized one NVIDIA RTX 3090 GPU to accelerate.
      - run  `python train.py` in terminal
 3. Testing
    - Download the test data (containing DAVIS16, DAVSOD, FBMS, SegTrack-V2, VOS) from [**"Training set and test set"**](#43-Training-set-and-test-set) and save it at './dataset/test/*'
@@ -107,6 +111,7 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
 
 
 ### 4.3 Training set and test set
+- Noting: The pseudo RGB-D video datasets used for our model training and testing.
 - Training set: [Baidu Pan](https://pan.baidu.com/s/19Rqfims6hGc8MjPkoKCrJg?pwd=wm08) (**Update link:2023-10-23**)
 - Test set: [Baidu Pan](https://pan.baidu.com/s/1_oNo4X7kSuxNumbTGqeZEg?pwd=wm08) (**Update link:2023-10-23**)
 
@@ -182,7 +187,7 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
 <p align="center">
     <img src="figures/sotaOnRDVS.png" width="70%" /> <br />
     <em> 
-    Table 2. Results of SOTA methods in different fields and the proposed method on RDVS dataset, where the suffix "⋇" indicates RGB-D VSOD techniques, ↑/↓ denotes that the larger/smaller value is better. The best are stressed in **BOLD**. 
+    Table 2. Results of SOTA methods in different fields and the proposed method on RDVS dataset, where the suffix "⋇" indicates RGB-D VSOD techniques, ↑/↓ denotes that the larger/smaller value is better. The best are stressed in BOLD. 
     </em>
 </p>
 
@@ -197,7 +202,7 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
 <p align="center">
     <img src="figures/RDVStestset.png" width="70%" /> <br />
     <em> 
-    Table 3. Results of SOTA methods in different fields as well as the proposed method on RDVS testing set. The left half are the results of the original model applied directly on the RDVS testing set, and the right half are the results obtained by re-training the models consistently on the RDVS training set and then evaluating them on the RDVS testing set. The best are stressed in **BOLD**.
+    Table 3. Results of SOTA methods in different fields as well as the proposed method on RDVS testing set. The left half are the results of the original model applied directly on the RDVS testing set, and the right half are the results obtained by re-training the models consistently on the RDVS training set and then evaluating them on the RDVS testing set. The best are stressed in BOLD.
     </em>
 </p>
 
@@ -205,14 +210,14 @@ Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b
 <p align="center">
     <img src="figures/synvsreal1.png" width="70%" /> <br />
     <em> 
-    Table 4. Experimental results of comparing synthetic depth maps and realistic depth maps by applying the original models to the full RDVS dataset. The best are stressed in **BOLD**.
+    Table 4. Experimental results of comparing synthetic depth maps and realistic depth maps by applying the original models to the full RDVS dataset. The best are stressed in BOLD.
     </em>
 </p>
 
 <p align="center">
     <img src="figures/synvsreal2.png" width="70%" /> <br />
     <em> 
-    Table 5. Experimental results of comparing synthetic depth maps and realistic depth maps by fine-tuning the models on the RDVS training set. The best are stressed in **BOLD**.
+    Table 5. Experimental results of comparing synthetic depth maps and realistic depth maps by fine-tuning the models on the RDVS training set. The best are stressed in BOLD.
     </em>
 </p>
 
