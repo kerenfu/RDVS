@@ -48,9 +48,9 @@ Code for paper, [**Salient Object Detection in RGB-D Videos**](https://arxiv.org
 </p>
 Figure 2 shows (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b) The pairwise dependencies across different attributes. (c) Scene/object categories of RDVS. (d) Center bias of RDVS and existing VSOD datasets.  
 <p>
-	<\br>
 </p>
-
+<p>
+</p>
   
 <p align="center">
     <img src="figures/Fig_fixation.png" width="100%" /> <br />
