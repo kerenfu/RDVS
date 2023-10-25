@@ -46,7 +46,7 @@ Code for paper, [**Salient Object Detection in RGB-D Videos**](https://arxiv.org
     Figure 2 shows Statistics of the proposed RDVS dataset. (a) Attribute-based analyses of RDVS with comparison to DAVIS. (b) The pairwise dependencies across different attributes. (c) Scene/object categories of RDVS. (d) Center bias of RDVS and existing VSOD datasets.  <br />
     </em>
 </p>
-
+&nbsp;
   
 <p align="center">
     <img src="figures/Fig_fixation.png" width="100%" /> <br />
@@ -84,7 +84,7 @@ Code for paper, [**Salient Object Detection in RGB-D Videos**](https://arxiv.org
 2. Training
    - Download the pretrained ResNet34 backbone: [Baidu Pan](https://pan.baidu.com/s/11-u_voUDqbHZKO9rdZcjpg?pwd=wm08) | [Google Drive](https://drive.google.com/file/d/1rhuK4dq7ku2ynnFLspHJC-Zp0vXIbuLi/view?usp=share_link) to './model/resnet/pre_train/'.
    - Download the train dataset (containing DAVIS16, DAVSOD, FBMS and DUTS-TR) from [**"Training set and test set"**](#43-Training-set-and-test-set) and save it at './dataset/train/*'.
-   - Download the pre_trained RGB, depth and flow stream models from [Baidu Pan](https://pan.baidu.com/s/1yaKnOoqMLwKI99qyoFVaCA?pwd=wm08) | [Google Drive](https://drive.google.com/drive/folders/1DAekgSdIrZH_1a72u-Ikv-LvY5y7Ths5?usp=share_link) to './checkpoints/'
+   - Download the pretrained RGB, depth and flow stream models from [Baidu Pan](https://pan.baidu.com/s/1yaKnOoqMLwKI99qyoFVaCA?pwd=wm08) | [Google Drive](https://drive.google.com/drive/folders/1DAekgSdIrZH_1a72u-Ikv-LvY5y7Ths5?usp=share_link) to './checkpoints/'
      - Noting: the pre_trained RGB should be saved at './checkpoints/spatial', pre_trained depth shoule be saved at './checkpoints/depth' and flow is same. 
    - The training of entire DCTNet+ utilized one NVIDIA RTX 3090 GPU to accelerate.
      - run  `python train.py` in terminal
@@ -97,7 +97,7 @@ Code for paper, [**Salient Object Detection in RGB-D Videos**](https://arxiv.org
 ## 4 Downloads
 ### 4.1 RDVS dataset
 - Full dataset with **realistic depth** (4.84G, 57 sequences): [Baidu Pan](https://pan.baidu.com/s/19urVlOpI6u9aoYYAGt4XaA?pwd=wm08) | [Google Drive](https://drive.google.com/file/d/1qTlyTZH4txUF5BGClBj29VFVxjAuSFCj/view?usp=share_link) (**Update link:2023-10-23**)
-- Full dataset with synthetic deptn (4.76G, 57 sequences): [Baidu Pan](https://pan.baidu.com/s/1pacr_DsFtGI5MRwfx3p2Lw?pwd=wm08) (**Update link:2023-10-23**)
+- Full dataset with synthetic depth (4.76G, 57 sequences): [Baidu Pan](https://pan.baidu.com/s/1pacr_DsFtGI5MRwfx3p2Lw?pwd=wm08) (**Update link:2023-10-23**)
 - Training Set containing realistic and synthetic depth (2.56G, 32 sequences): [Baidu Pan](https://pan.baidu.com/s/1benryV0Gzdh0iv3-x3P3JA?pwd=wm08) | [Google Drive](https://drive.google.com/file/d/1CUXZmsVo3K5KGbiqFc8GmgPAJYqWREPx/view?usp=share_link) (**Update link:2023-10-23**)
 - Test Set containing realistic and synthetic depth (2.30G, 25 sequences): [Baidu Pan](https://pan.baidu.com/s/1Oa6P2HwZ9kFlyZ6pTRj-7g?pwd=wm08) | [Google Drive](https://drive.google.com/file/d/1wZtCm12IkQ_9md1Nl2S-upuNOF3mb2HU/view?usp=share_link) (**Update link:2023-10-23**)
 - **Noting: realistic depth is in "/Depth" and synthetic depth is in "/SyntheticDepth"**
