@@ -88,6 +88,10 @@ Code for paper: **Salient Object Detection in RGB-D Videos [[Arxiv]](https://arx
      - Noting: the pre_trained RGB should be saved at './checkpoints/spatial', pre_trained depth shoule be saved at './checkpoints/depth' and flow is same. 
    - The training of entire DCTNet+ utilized one NVIDIA RTX 3090 GPU to accelerate.
      - run  `python train.py` in terminal
+
+   - (PS: For pretraining different streams)
+     - The pretraining code of different streams can be derived from `train.py`. We provide `pretrain_depth.py` and it can also be modified for pretraining the other two streams.
+
 3. Testing
    - Download the test data (containing DAVIS16, DAVSOD, FBMS, SegTrack-V2, VOS) from [**"Training set and test set"**](#43-Training-set-and-test-set) and save it at './dataset/test/*'
    - Download the trained model from [**"DCTNet+ model"**](#42-DCTNet-model)(original model ckpt) and modify the  `model_path` to its saving path in the `test.py`.
