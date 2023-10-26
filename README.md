@@ -85,7 +85,7 @@ Code for paper: **Salient Object Detection in RGB-D Videos [[Arxiv]](https://arx
    - Download the pretrained ResNet34 backbone: [Baidu Pan](https://pan.baidu.com/s/11-u_voUDqbHZKO9rdZcjpg?pwd=wm08) | [Google Drive](https://drive.google.com/file/d/1rhuK4dq7ku2ynnFLspHJC-Zp0vXIbuLi/view?usp=share_link) to './model/resnet/pre_train/'.
    - Download the train dataset (containing DAVIS16, DAVSOD, FBMS and DUTS-TR) from [**"Training set and test set"**](#43-Training-set-and-test-set) and save it at './dataset/train/*'.
    - Download the pretrained RGB, depth and flow stream models from [Baidu Pan](https://pan.baidu.com/s/1yaKnOoqMLwKI99qyoFVaCA?pwd=wm08) | [Google Drive](https://drive.google.com/drive/folders/1DAekgSdIrZH_1a72u-Ikv-LvY5y7Ths5?usp=share_link) to './checkpoints/'
-     - Noting: the pre_trained RGB should be saved at './checkpoints/spatial', pre_trained depth shoule be saved at './checkpoints/depth' and flow is same. 
+     - Noting: the pre_trained RGB should be saved at './checkpoints/spatial', pre_trained depth shoule be saved at './checkpoints/depth' and flow shoule be saved at './checkpoints/flow'. 
    - The training of entire DCTNet+ utilized one NVIDIA RTX 3090 GPU to accelerate.
      - run  `python train.py` in terminal
 
