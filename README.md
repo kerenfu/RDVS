@@ -101,7 +101,6 @@ Code for paper: **Salient Object Detection in RGB-D Videos [[Arxiv]](https://arx
 ## 4 Downloads
 ### 4.1 RDVS dataset
 - Full dataset with **realistic depth** (4.84G, 57 sequences): [Baidu Pan](https://pan.baidu.com/s/19urVlOpI6u9aoYYAGt4XaA?pwd=wm08) | [Google Drive](https://drive.google.com/file/d/1qTlyTZH4txUF5BGClBj29VFVxjAuSFCj/view?usp=share_link) (**Update link:2023-10-23**)
-- Full dataset with synthetic depth (4.76G, 57 sequences): [Baidu Pan](https://pan.baidu.com/s/1pacr_DsFtGI5MRwfx3p2Lw?pwd=wm08) (**Update link:2023-10-23**)
 - Training Set containing realistic and synthetic depth (2.56G, 32 sequences): [Baidu Pan](https://pan.baidu.com/s/1benryV0Gzdh0iv3-x3P3JA?pwd=wm08) | [Google Drive](https://drive.google.com/file/d/1CUXZmsVo3K5KGbiqFc8GmgPAJYqWREPx/view?usp=share_link) (**Update link:2023-10-23**)
 - Test Set containing realistic and synthetic depth (2.30G, 25 sequences): [Baidu Pan](https://pan.baidu.com/s/1Oa6P2HwZ9kFlyZ6pTRj-7g?pwd=wm08) | [Google Drive](https://drive.google.com/file/d/1wZtCm12IkQ_9md1Nl2S-upuNOF3mb2HU/view?usp=share_link) (**Update link:2023-10-23**)
 - **Noting: realistic depth is in "/Depth" and synthetic depth is in "/SyntheticDepth"**
