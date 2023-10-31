@@ -25,6 +25,7 @@ Code for paper: **Salient Object Detection in RGB-D Videos [[Arxiv]](https://arx
     - [5.4 Evaluation on RDVS test set after fine-tuning](#54-Evaluation-on-RDVS-test-set-after-fine-tuning)
     - [5.5 Synthetic depth v.s. realistic depth](#55-Synthetic-depth-vs-realistic-depth)
   - [6. Citation](#6-Citation)
+  - [7. Reference](#7-Reference)
 
 ## 1 Task Relationship
 <p align="center">
@@ -249,7 +250,7 @@ Please cite our paper if you find the work useful:
 ```
 
 ## 7 Reference
-We sincerely thank MPI Sintel, WSVD, Stereo Ego-Motion, SBM-RGBD and TUM-RGBD for their outstanding project contributions!
+We sincerely thank MPI Sintel, WSVD, Stereo Ego-Motion, SBM-RGBD and TUM-RGBD for their outstanding contributions on datasets!
 ```
 @inproceedings{butler2012naturalistic,
   title={A naturalistic open source movie for optical flow evaluation},
