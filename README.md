@@ -248,6 +248,52 @@ Please cite our paper if you find the work useful:
 }
 ```
 
+## 7 Reference
+We sincerely thank MPI Sintel, WSVD, Stereo Ego-Motion, SBM-RGBD and TUM-RGBD for their outstanding project contributions!
+```
+@inproceedings{butler2012naturalistic,
+  title={A naturalistic open source movie for optical flow evaluation},
+  author={Butler, Daniel J and Wulff, Jonas and Stanley, Garrett B and Black, Michael J},
+  booktitle={Computer Vision--ECCV 2012: 12th European Conference on Computer Vision, Florence, Italy, October 7-13, 2012, Proceedings, Part VI 12},
+  pages={611--625},
+  year={2012},
+  organization={Springer}
+}
+
+@inproceedings{wang2019web,
+  title={Web stereo video supervision for depth prediction from dynamic scenes},
+  author={Wang, Chaoyang and Lucey, Simon and Perazzi, Federico and Wang, Oliver},
+  booktitle={2019 International Conference on 3D Vision (3DV)},
+  pages={348--357},
+  year={2019},
+  organization={IEEE}
+}
+
+@inproceedings{stereego,
+  title={https://lmb.informatik.uni-freiburg.
+de/resources/datasets/StereoEgomotion/},
+  author={{Stereo Ego-Motion dataset}},
+}
+
+@inproceedings{camplani2017benchmarking,
+  title={A benchmarking framework for background subtraction in RGBD videos},
+  author={Camplani, Massimo and Maddalena, Lucia and Moy{\'a} Alcover, Gabriel and Petrosino, Alfredo and Salgado, Luis},
+  booktitle={New Trends in Image Analysis and Processing--ICIAP 2017: ICIAP International Workshops, WBICV, SSPandBE, 3AS, RGBD, NIVAR, IWBAAS, and MADiMa 2017, Catania, Italy, September 11-15, 2017, Revised Selected Papers 19},
+  pages={219--229},
+  year={2017},
+  organization={Springer}
+}
+
+@inproceedings{sturm2012benchmark,
+  title={A benchmark for the evaluation of RGB-D SLAM systems},
+  author={Sturm, J{\"u}rgen and Engelhard, Nikolas and Endres, Felix and Burgard, Wolfram and Cremers, Daniel},
+  booktitle={2012 IEEE/RSJ international conference on intelligent robots and systems},
+  pages={573--580},
+  year={2012},
+  organization={IEEE}
+}
+```
+
 
 [⬆ back to top](#headin)
 
