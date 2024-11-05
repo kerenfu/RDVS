@@ -1,4 +1,4 @@
-# Salient Object Detection in RGB-D Videos (RDVS dataset and DCTNet+ model)
+# Salient Object Detection in RGB-D Videos (RDVS dataset and DCTNet+ model, accepted to IEEE TIP)
 
 ## This site is still under construction.... 
 
