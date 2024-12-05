@@ -208,7 +208,7 @@ Table 2. Results of SOTA methods in different fields and the proposed method on 
 Table 3. Results of SOTA methods in different fields as well as the proposed method on RDVS testing set. The left half are the results of the original model applied directly on the RDVS testing set, and the right half are the results obtained by re-training the models consistently on the RDVS training set and then evaluating them on the RDVS testing set. The best are stressed in BOLD.
 </em>
 <p align="center">
-    <img src="figures/RDVStestset,png" width="70%" /> <br />
+    <img src="figures/RDVStestset.png" width="70%" /> <br />
 </p>
 
 ### 5.5 Synthetic depth v.s. realistic depth
