@@ -1,8 +1,8 @@
-# Salient Object Detection in RGB-D Videos (RDVS dataset and DCTNet+ model, accepted to IEEE TIP)
+# Salient Object Detection in RGB-D Videos (RDVS dataset and DCTNet+ model, IEEE TIP 2024)
 
 ## This site is still under construction.... 
 
-Code for paper: **Salient Object Detection in RGB-D Videos [[Arxiv]](https://arxiv.org/abs/2310.15482)**
+Code for paper: **Salient Object Detection in RGB-D Videos [[IEEEXplore]](https://ieeexplore.ieee.org/document/10759589)[[Arxiv]](https://arxiv.org/abs/2310.15482)**
 
 ## Table of Contents
 
@@ -239,13 +239,14 @@ Please cite our paper if you find the work useful:
   organization={IEEE}
 }
 
-@misc{mou2023RDVS,
+@article{mou2024salient,
       title={Salient Object Detection in RGB-D Videos}, 
       author={Ao Mou and Yukang Lu and Jiahao He and Dingyao Min and Keren Fu and Qijun Zhao},
-      year={2023},
-      eprint={2310.15482},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      year={2024},
+      journal={IEEE Transactions on Image Processing},
+      volume={33},
+      pages={6660--6675},
+      year={2024}
 }
 ```
 
