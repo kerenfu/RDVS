@@ -226,6 +226,13 @@ Table 5. Experimental results of comparing synthetic depth maps and realistic de
     <img src="figures/synvsreal2.png" width="70%" /> <br /> 
 </p>
 
+<p align="center">
+    <img src="figures/synvsreal_visual.png" width="100%" /> <br />
+    <em> 
+    Figure 7. Comparison of realistic depth and synthetic depth on the proposed RDVS dataset.
+    </em>
+</p>
+
 ## 6 Citation
 Please cite our paper if you find the work useful:
 
