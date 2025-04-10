@@ -1,7 +1,5 @@
 # Salient Object Detection in RGB-D Videos (RDVS dataset and DCTNet+ model, IEEE TIP 2024)
 
-## This site is still under construction.... 
-
 Code for paper: **Salient Object Detection in RGB-D Videos [[IEEEXplore]](https://ieeexplore.ieee.org/document/10759589)[[Arxiv]](https://arxiv.org/abs/2310.15482)**
 
 ## Table of Contents
@@ -240,7 +238,7 @@ Please cite our paper if you find the work useful:
 @inproceedings{lu2022depth,
   title={Depth-cooperated trimodal network for video salient object detection},
   author={Lu, Yukang and Min, Dingyao and Fu, Keren and Zhao, Qijun},
-  booktitle={2022 IEEE International Conference on Image Processing (ICIP)},
+  booktitle={Proceedings of the IEEE International Conference on Image Processing (ICIP)},
   pages={116--120},
   year={2022},
   organization={IEEE}
