@@ -22,8 +22,9 @@ Code for paper: **Salient Object Detection in RGB-D Videos [[IEEEXplore]](https:
     - [5.3 Straightforward evaluation on the full RDVS dataset](#53-Straightforward-evaluation-on-the-full-RDVS-dataset)
     - [5.4 Evaluation on RDVS test set after fine-tuning](#54-Evaluation-on-RDVS-test-set-after-fine-tuning)
     - [5.5 Synthetic depth v.s. realistic depth](#55-Synthetic-depth-vs-realistic-depth)
-  - [6. Citation](#6-Citation)
-  - [7. Reference](#7-Reference)
+  - [6. Disclaimer and Terms of Use](#6-Disclaimer-and-Terms-of-Use)
+  - [7. Citation](#7-Citation)
+  - [8. Reference](#8-Reference)
 
 ## 1 Task Relationship
 <p align="center">
@@ -232,7 +233,30 @@ Table 5. Experimental results of comparing synthetic depth maps and realistic de
     </em>
 </p>
 
-## 6 Citation
+## 6 Disclaimer and Terms of Use
+
+**RDVS** is an open-source RGB-D video dataset designed for the RGB-D VSOD task. This dataset is curated and made publicly available by the publisher to promote research and development in the field of computer vision. By using this dataset, you acknowledge that you have read, understood, and agree to abide by the following terms:
+
+### Data Source and Ownership
+Some of the data in this dataset may originate from public datasets or third-party sources, and the relevant ownership is indicated in the dataset documentation. The publisher holds rights only to the selection, curation, annotation, and formatting of the data. Users shall respect and comply with the terms of use of the original data sources.
+
+### Usage License
+The publisher grants users a worldwide, royalty‑free, non‑exclusive license to use this dataset for academic research, technological development, and non‑commercial purposes. Commercial use requires separate written permission from the publisher.
+
+### Disclaimer
+This dataset is provided without any express or implied warranties, including but not limited to:
+- Accuracy, completeness, timeliness, or fitness for a particular purpose;
+- Non‑infringement of any third‑party rights.
+
+The publisher shall not be liable for any direct or indirect damages arising from the use of this dataset.
+
+### User Obligations
+When using this dataset, users shall:
+- Comply with applicable laws, regulations, and academic ethics;
+- Not use the dataset for illegal, infringing, defamatory, discriminatory, or other improper purposes;
+- Not remove or alter any copyright notices or identifiers contained in the dataset.
+
+## 7 Citation
 Please cite our paper if you find the work useful:
 
 ```
@@ -256,7 +280,7 @@ Please cite our paper if you find the work useful:
 }
 ```
 
-## 7 Reference
+## 8 Reference
 We sincerely thank MPI Sintel, WSVD, Stereo Ego-Motion, SBM-RGBD and TUM-RGBD for their outstanding contributions on datasets!
 ```
 @inproceedings{butler2012naturalistic,
